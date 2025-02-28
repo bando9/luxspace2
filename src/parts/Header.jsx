@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <header className="absolute w-full z-50 px-4 border-4 border-indigo-500 bg-red-500">
+      <header className="absolute w-full z-50 px-4">
         <div className="container mx-auto py-5">
           <div className="flex flex-stretch items-center">
             <div className="w-56 items-center flex">
               <img
-                src="images/content/logo.png"
+                src="../../public/assets/images/contents/logo.png"
                 alt="Luxspace | Fulfill your house with beautiful furniture"
               />
             </div>
