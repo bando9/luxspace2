@@ -6,7 +6,7 @@ import Catalog2 from "/assets/images/contents/image-catalog-2.png";
 import Catalog3 from "/assets/images/contents/image-catalog-3.png";
 import Catalog4 from "/assets/images/contents/image-catalog-4.png";
 
-export default function Browsetheroom() {
+export default function BrowseRoom() {
   return (
     <div>
       <section className="flex bg-gray-100 py-16 px-4" id="browse-the-room">

@@ -10,7 +10,7 @@ export default function Header() {
           <div className="flex flex-stretch items-center">
             <div className="w-56 items-center flex">
               <img
-                src="../../public/assets/images/contents/logo.png"
+                src="/assets/images/contents/logo.png"
                 alt="Luxspace | Fulfill your house with beautiful furniture"
               />
             </div>
