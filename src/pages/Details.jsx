@@ -4,6 +4,8 @@ import Clients from "../parts/Clients";
 import Sitemap from "../parts/Sitemap";
 import Footer from "../parts/Footer";
 import Breadcrumb from "../components/Breadcrumb";
+import ProductDetails from "../parts/Details/ProductDetails";
+import Sugesstion from "../parts/Details/Sugesstion";
 
 export default function HomePages() {
   return (
@@ -17,6 +19,8 @@ export default function HomePages() {
         ]}
       />
       <Clients />
+      <ProductDetails />
+      <Sugesstion />
       <Sitemap />
       <Footer />
     </>
